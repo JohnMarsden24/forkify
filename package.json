@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "heroku-prebuild": "npm install --dev",
-    "build": "webpack --mode production && mv _redirects dist",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
   "author": "John Marsden",
